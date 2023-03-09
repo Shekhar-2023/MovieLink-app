@@ -13,6 +13,83 @@
   }
 }
 
+/* Beginign Of CSS By me on Movie LOGO, input, h3 homepage para  */
+
+.logo {
+  font-weight: bold;
+  color: black;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+.para {
+  margin: auto;
+  margin-top: 160px;
+  background: #61dafb;
+  color: maroon;
+  width: 400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: 4px solid black;
+  border-radius:  10px;
+  
+}
+.para:hover{
+  color: black;
+  border-radius:  10px;
+  border: 4px solid green;
+  background-color: yellow;
+}
+
+.underline {
+  color: black;
+  text-decoration: none;
+  margin: 10px 10px;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.underline:hover {
+  color: white;
+}
+
+
+h3 {
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blue;
+
+}
+
+.input:hover {
+  color: maroon;
+  font-weight: bold;
+}
+
+.input {
+  border: 2px solid blueviolet;
+  border-radius: 4px;
+  width: 300px;
+  height: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-wrapper {
+
+  border: 1px solid;
+  margin: auto;
+  width: 600px;
+  margin-top: 5px;
+}
+
+/*     ended css part here by me */
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +109,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
